@@ -107,7 +107,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const data = await response.json();
         const team = buildTeam(data);
-        // console.log(team);
 
         renderTeam(team);
       } catch (error) {
